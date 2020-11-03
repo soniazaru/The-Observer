@@ -1,0 +1,105 @@
+/* imposto il colore di sfondo della pagina */
+body {
+    /* background-image: url(https://rominacomaschi.files.wordpress.com/2013/02/paper_texture_v4_by_bashcorpo.jpg); */
+    background-attachment: fixed;
+}
+
+div {
+    background-color: white;
+}
+
+/* imposto il colore delle frecciette ai lati del carosello */
+.slick-prev:before,
+.slick-next:before {
+    color: lightslategray;
+}
+
+h3 {
+    color: #231f20;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Spectral";
+    font-weight: bold;
+}
+
+h4 {
+    color: #231f20;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Spectral";
+    font-weight: bold;
+}
+
+p {
+    color: #231f20;
+    text-align: left;
+    font-family: "Roboto";
+    font-weight: light;
+    font-size: 14px;
+}
+
+.centrato {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: light;
+    font-size: 14px;
+}
+
+.autore {
+    text-align: left;
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.row {
+    border-bottom-color: lightgray;
+    border-width: 90%;
+    padding-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.row2 {
+    padding-bottom: 0px;
+}
+
+.logo {
+    width:300px;
+    height: 70px;
+    margin: auto;
+}
+
+.notizia2 {
+    padding-top: 15px;
+}
+.bar {
+    padding: 8px;
+    border-width: 90%;
+    color: #6c757d;
+    text-align: left;
+    font-family: "Roboto";
+    font-weight: light;
+}
+
+.nav-item {
+    border-width: 90%;
+    margin: auto;
+    font-family: "Roboto";
+    font-weight: light;
+}
+
+.active {
+    color: #6c757d;
+    text-decoration-line: underline;
+    text-decoration-color: lightgray;
+}
+
+.navbar {
+    background-color: white;
+    font-family: "Roboto";
+    font-weight: light;
+}
